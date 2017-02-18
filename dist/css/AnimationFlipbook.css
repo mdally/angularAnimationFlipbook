@@ -1,0 +1,32 @@
+.animationFlipbook {
+	text-align: center;
+}
+
+.animationSlides-container {
+	width: 100%;
+	display: inline-block;
+}
+
+.animationFlipbook-controller {
+	text-align: center;
+}
+
+.animationFlipbook-controller > input {
+	display: inline-block;
+	width: 95%;
+}
+
+.animationSlide {
+	margin-bottom: 0px;
+	position: relative;
+}
+
+.animationLoading {
+	opacity: 0.4;
+	filter: alpha(opacity=40);
+}
+
+img.animationLoadingGif {
+	width: 75px; 
+	position: absolute;
+}

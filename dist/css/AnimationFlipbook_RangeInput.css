@@ -1,0 +1,89 @@
+/*
+ * generated on http://danielstern.ca/range.css/
+ */
+
+.animationFlipbook-controller > input[type=range] {
+  -webkit-appearance: none;
+  width: 95%;
+  margin: 5.3px 0;
+}
+.animationFlipbook-controller > input[type=range]:focus {
+  outline: none;
+}
+.animationFlipbook-controller > input[type=range]::-webkit-slider-runnable-track {
+  width: 95%;
+  height: 3.4px;
+  cursor: pointer;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.32), 0px 0px 1px rgba(13, 13, 13, 0.32);
+  background: #c8c8c8;
+  border-radius: 3.3px;
+  border: 0px solid rgba(1, 1, 1, 0.1);
+}
+.animationFlipbook-controller > input[type=range]::-webkit-slider-thumb {
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.33), 0px 0px 1px rgba(13, 13, 13, 0.33);
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  height: 14px;
+  width: 23px;
+  border-radius: 5px;
+  background: #2c3e50;
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: -5.3px;
+}
+.animationFlipbook-controller > input[type=range]:focus::-webkit-slider-runnable-track {
+  background: #d5d5d5;
+}
+.animationFlipbook-controller > input[type=range]::-moz-range-track {
+  width: 95%;
+  height: 3.4px;
+  cursor: pointer;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.32), 0px 0px 1px rgba(13, 13, 13, 0.32);
+  background: #c8c8c8;
+  border-radius: 3.3px;
+  border: 0px solid rgba(1, 1, 1, 0.1);
+}
+.animationFlipbook-controller > input[type=range]::-moz-range-thumb {
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.33), 0px 0px 1px rgba(13, 13, 13, 0.33);
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  height: 14px;
+  width: 23px;
+  border-radius: 5px;
+  background: #2c3e50;
+  cursor: pointer;
+}
+.animationFlipbook-controller > input[type=range]::-ms-track {
+  width: 95%;
+  height: 3.4px;
+  cursor: pointer;
+  background: transparent;
+  border-color: transparent;
+  color: transparent;
+}
+.animationFlipbook-controller > input[type=range]::-ms-fill-lower {
+  background: #bbbbbb;
+  border: 0px solid rgba(1, 1, 1, 0.1);
+  border-radius: 6.6px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.32), 0px 0px 1px rgba(13, 13, 13, 0.32);
+}
+.animationFlipbook-controller > input[type=range]::-ms-fill-upper {
+  background: #c8c8c8;
+  border: 0px solid rgba(1, 1, 1, 0.1);
+  border-radius: 6.6px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.32), 0px 0px 1px rgba(13, 13, 13, 0.32);
+}
+.animationFlipbook-controller > input[type=range]::-ms-thumb {
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.33), 0px 0px 1px rgba(13, 13, 13, 0.33);
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  height: 14px;
+  width: 23px;
+  border-radius: 5px;
+  background: #2c3e50;
+  cursor: pointer;
+  height: 3.4px;
+}
+.animationFlipbook-controller > input[type=range]:focus::-ms-fill-lower {
+  background: #c8c8c8;
+}
+.animationFlipbook-controller > input[type=range]:focus::-ms-fill-upper {
+  background: #d5d5d5;
+}

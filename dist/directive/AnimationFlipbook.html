@@ -1,0 +1,12 @@
+<div class="animationFlipbook">
+	<div class="animationSlides-container">
+		<div class="animationSlide thumbnail" ng-repeat="slide in animationSlides" ng-show="$index==currentSlide">
+			<img ng-src="{{slide.src}}" ng-class="{animationLoading: !allSlidesLoaded}" onload-function="slideLoaded($index)">
+			<img src="img/loading.gif" class="animationLoadingGif" id="{{title}}" ng-if="$first && !allSlidesLoaded" ng-show="showLoadingGif">
+		</div>
+	</div>
+
+	<div class="animationFlipbook-controller">
+		<input type="range" value="0" min="0" max="{{nSlides-1}}" ng-model="currentSlide" ng-disabled="!allSlidesLoaded">
+	</div>
+</div>
