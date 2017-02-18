@@ -8,7 +8,7 @@ https://github.com/mdally/angularAnimationFlipbook
 
 Angular directive for a slider-controlled animation flipbook
 
-Check out an demo at http://mrkdll.com/#/Article/Voronoi
+Check out a demo at http://mrkdll.com/#/Article/Voronoi
 
 ###Usage:
 To use, simply link the directive file in your project, along with the css files.
