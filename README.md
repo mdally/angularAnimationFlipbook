@@ -13,7 +13,11 @@ To use, simply link the directive file in your project, along with the css files
 Then create a folder on your web server that will contain all the slides of the animation. Name them by their frame number (i.e. 1.png - 50.png), with no leading zeros.
 
 ```
-<x-animation-flipbook data-title="YourAnimationTitle" data-folder-url="path/to/folder/containing/animation/frames/" data-n-slides="number_of_slides_to_load"/>
+<x-animation-flipbook 
+	data-title="YourAnimationTitle" 
+	data-folder-url="path/to/folder/containing/animation/frames/" 
+	data-n-slides="number_of_slides_to_load"
+/>
 ```
 
 ###Notes:
