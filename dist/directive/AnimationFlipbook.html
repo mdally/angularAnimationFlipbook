@@ -1,8 +1,8 @@
 <div class="animationFlipbook">
 	<div class="animationSlides-container">
 		<div class="animationSlide thumbnail" ng-repeat="slide in animationSlides" ng-show="$index==currentSlide">
-			<img ng-src="{{slide.src}}" ng-class="{animationLoading: !allSlidesLoaded}" onload-function="slideLoaded($index)">
-			<img src="img/loading.gif" class="animationLoadingGif" id="{{title}}" ng-if="$first && !allSlidesLoaded" ng-show="showLoadingGif">
+			<img ng-src="{{slide.src}}" ng-class="{firstFrame: $first, animationLoading: !allSlidesLoaded}" onload-function="slideLoaded($index)" class="{{title+'_img'}}">
+			<img src="img/loading.gif" class="animationLoadingGif" id="{{title}}" ng-if="$first" ng-show="showLoadingGif && !allSlidesLoaded">
 		</div>
 	</div>
 

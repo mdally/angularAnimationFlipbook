@@ -36,9 +36,10 @@ app.directive('animationFlipbook', function($resource, $q) {
 
 			scope.centerLoadingGif = function(title){
 				var elt = $(".animationLoadingGif#"+title);
+				var img = $("."+title+"_img.firstFrame");
 
-				elt.css("top", ((elt.parent().height()-elt.height())/2.0).toString()+'px');
-				elt.css("left", ((elt.parent().width()-elt.width())/2.0).toString()+'px');
+				elt.css("top", ((img.offset().top - img.parent().offset().top) + (img.height()-elt.width())/2.0).toString()+'px');
+				elt.css("left", ((img.offset().left - img.parent().offset().left) + (img.width()-elt.width())/2.0).toString()+'px');
 				
 				scope.showLoadingGif = true;
 			}
