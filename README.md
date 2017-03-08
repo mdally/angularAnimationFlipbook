@@ -6,7 +6,7 @@ https://github.com/mdally/angularAnimationFlipbook
 
 ================================================
 
-Angular directive for a slider-controlled animation flipbook
+Angular directive for an animation flipbook. It allows users to scrub back and forth through frames of an animation.
 
 Check out a demo at http://mrkdll.com/#/Article/Voronoi
 
